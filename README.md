@@ -1,4 +1,7 @@
 jquery-training
 ===============
+Updated:
 
-Hello
+Bài tập ngày 1:
++ DOM Traversal and Manipulation.
++ Event Handling & Animation
