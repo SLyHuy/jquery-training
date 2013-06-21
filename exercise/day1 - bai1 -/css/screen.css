@@ -1,0 +1,172 @@
+/*
+main font: 
+main background color: #
+main text color: #
+hover text color: #
+active text color: #
+visited text color: #
+*/
+
+/*
+@font-face {
+	font-family: "NokiaPureHeadline";
+	src: url("../fonts/nokiapureheadlinelt-webfont.eot");
+	src: url("../fonts/nokiapureheadlinelt-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/nokiapureheadlinelt-webfont.woff") format("woff"),
+         url("../fonts/nokiapureheadlinelt-webfont.ttf") format("truetype"),
+         url("../fonts/nokiapureheadlinelt-webfont.svg#NokiaPureHeadlineBold") format("svg");
+}
+*/
+
+/* reset & default */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea, select,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; background: transparent; font-size: 100%; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {background: #fff; color: #000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 1;}
+textarea {font-family: inherit; overflow: auto; vertical-align: top; resize: none}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted; cursor: help;}
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0;}
+table {border-spacing: 0;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+a {color: #000; text-decoration: none;}
+a:hover {color: #ddd;}
+a:active {color: #000;}
+a:visited {color: #000;}
+:focus {outline: 0;}
+
+/* common */
+.width-1 {}
+.list-1 {}
+.color-1 {}
+.float-l {float: left;}
+.float-r {float: right;}
+.hidden {display: none;}
+.invisible {visibility: hidden;}
+.loading {}
+
+.fck {overflow: hidden; line-height: 16px;}
+	.fck ul, .fck ol {margin: 0 0 10px 0;}
+		.fck ul li {margin: 0; padding: 0 0 10px 0; list-style: inside; list-style-type: disc;}
+		.fck ol li {margin: 0; padding: 0 0 10px 0; list-style: inside; list-style-type: decimal !important;}
+.fck-1 {}
+.fck-2 {}		
+    
+/* block, highlight */
+.block-1 {}
+
+.highlight-1 {}
+
+.content-1 {}
+
+.gallery {}
+.gallery-1{}
+
+.slideshow {}
+.slideshow-1 {}
+    
+/* alert */
+.alert-layer {display: block; position: absolute; top: -1500px; left: -15000px; overflow: hidden; padding: 3px 5px; background: #edd540; color: #424242;}
+	.alert-layer .message {margin: 0; padding: 0 0 0 5px;}
+
+/* sprite */
+.wi-text {}
+	.wi-text-1 {}
+
+.wi-icon {}
+	.wi-icon-1 {}
+
+.wi-button {}
+	.wi-button-1 {}
+		
+.wi-frame {}
+	.wi-frame-1{}
+	
+.wi-box {}
+	.wi-box .tl, .wi-box .tr, .wi-box .bl, .wi-box .br {}
+	.wi-box .ml, .wi-box .mr {}
+	.wi-box .mt, .wi-box .mb {}
+	
+.wi-box-1 {}
+	.wi-box-1 .tl {}
+	.wi-box-1 .tr {}
+	.wi-box-1 .bl {}
+	.wi-box-1 .br {}
+	.wi-box-1 .ml {}
+	.wi-box-1 .mr {}
+	.wi-box-1 .mt {}
+	.wi-box-1 .mb {}
+		.wi-box-1 .content {}
+
+.wi-box-2 {}
+	.wi-box-2 .outer {}
+		.wi-box-2 .inner {}
+        
+.wi-layer {}
+	.wi-layer .tl, .wi-layer .tr, .wi-layer .bl, .wi-layer .br {}
+	.wi-layer .ml, .wi-layer .mr {}
+	.wi-layer .mt, .wi-layer .mb {}
+
+.wi-layer-1 {}
+	.wi-layer-1 .tl {}
+	.wi-layer-1 .tr {}
+	.wi-layer-1 .bl {}
+	.wi-layer-1 .br {}
+	.wi-layer-1 .ml {}
+	.wi-layer-1 .mr {}
+	.wi-layer-1 .mt {}
+	.wi-layer-1 .mb {}
+		.wi-layer-1 .content {}
+	
+.wi-layer-2 {}
+	.wi-layer-2 .outer {}
+		.wi-layer-2 .inner {}
+		
+
+/* form */
+.form-1 {}
+.input-1 {}
+.checkbox-1 {}
+.select-1 {}
+.textarea-1 {}
+
+/* structure */
+#container {width: 980px; overflow: hidden; margin: 0 auto;}
+	#header {width: 100%;}
+		#header .logo {font-size: 18px;}
+			#nav {height: 14px; margin: 5px 0; padding: 10px; border: 1px solid #ddd; background: #999;}
+				#nav li {float: left; padding: 0 5px;}
+					#nav li  a{font-size: 14px;}	
+	#main {width: 100%; overflow: hidden; margin: 10px auto;}
+		#sidebar {float: left; width: 220px; min-height: 500px; overflow: hidden; padding: 10px; background: #eee;}
+		#content {float: right; width: 710px; min-height: 500px; overflow: hidden; padding: 10px; background: #ddd;}
+	#footer {padding: 10px; background: #999;}
+		#footer p {}
+#template {padding: 20px; background: #eee;}
+
+/* page */
+.page-1 {} /* news, article page */
+.page-2 {} /* product page */
+.page-3 {} /* about us page */
+
+/* plugins */
