@@ -25,7 +25,7 @@ Bài 3: String + regex
 		+ Các dấu mở ngoặc và mở nháy đều phải được hiểu là ký tự đầu từ, do đó ký tự tiếp theo phải viết sát vào bên phải của các dấu này. Tương tự, các dấu đóng ngoặc và đóng nháy phải hiểu là ký tự cuối từ và được viết sát vào bên phải của ký tự cuối cùng của từ bên trái. 
 
 Bài 4: Array
-	Cho 1 mảng 2 chiều NxN, mỗi phần tử có giá trị nguyên bất kỳ, tính tổng giá trị các phần tử nằm trên hình vuông NxN này.
+	Cho 1 mảng 2 chiều NxN, mỗi phần tử có giá trị nguyên bất kỳ, tính tổng giá trị các phần tử nằm trên 2 đường chéo của hình vuông NxN này.
 		
 Bài 5:	Date
 	Bạn đã trải qua bao nhiêu ngày "thứ 6 ngày 13"?	
